@@ -13,6 +13,14 @@ it is used to keep your sensitive data such as password. pass are the keys in en
 collection is used to create infrastructure provitioning and network Automation
 for that ansible use the modules which run on control node, these modules run on manages nodes
 
+AWS
+
+cisco
+
+F5
+
+big Ip
+
 # Setup EC2 Collection and Authentication
 
 ## Install boto3
