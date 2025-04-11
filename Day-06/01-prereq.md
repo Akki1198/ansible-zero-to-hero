@@ -1,3 +1,11 @@
+Ansible vaults -
+
+it is used to keep your sensitive data such as password. pass are the keys in encrypted files.
+1.ansible-vault create filename.yml
+2.ansible-vault edit file.yml
+3.encrypt - password for previous playbook
+4. decrypt - remove encryption
+
 # Setup EC2 Collection and Authentication
 
 ## Install boto3
