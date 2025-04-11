@@ -1,5 +1,8 @@
 # Ansible Roles
 
+Roles in Ansible - Roles in Ansible is a foleder of vars, tasks, handler, template, files, 
+to reach a modularity and readability roles is used in structured way.
+
 An Ansible role is a reusable, self-contained unit of automation that is used to 
 organize and manage tasks, variables, files, templates, and handlers in a structured way. 
 
@@ -60,6 +63,15 @@ An Ansible role follows a specific directory structure:
   ├── vars/
       └── main.yml
 ```
+we generally use Ansible-galaxy to create a role -
+to do that - 1. ansible-galaxy role init <role-name>
+
+we can search the inbuild role also in ansible galaxy -
+use - 2. ansible-galaxy role -h
+      3. ansible-galaxy role install docker-role
+
+then you can push that to the Ansible galaxy -
+ansible-galaxy import <hithub username> <hithub repo> --token lsjshssgsgf
 
 ## Why Use Ansible Roles?
 
