@@ -14,3 +14,33 @@
         owner: root
         group: root
         mode: '0644'
+
+---
+
+---
+  - hosts: All
+    become: true
+    connection: ssh
+    Gather-fact: yes
+    tasks:
+      - name: install ngnix 
+        ansible.builtin.apt:
+          name: ngnix
+          state: present
+          update_cache: yes
+     tasks:
+      - name: restart service of ngnix 
+        ansible.builtin.service:
+          name: ngnix
+          state: restart
+          owner: "root"
+          group: "root"
+          mode: "0644"
+      tasks:
+      - name: copy application to the remote machine 
+        ansible.builtin.copy:
+          src: /home/app.html
+          dest: /etc/www/html
+          owner: root
+          group: root
+          mode: "0644"
