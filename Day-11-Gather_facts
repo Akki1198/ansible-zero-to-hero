@@ -1,0 +1,44 @@
+facts in Ansible - 
+
+Operating System and Distribution:
+
+1. ansible_distribution
+
+2. ansible_distribution_version
+
+3. ansible_os_family
+
+4. ansible_kernel
+
+Network Configuration:
+
+1.ansible_all_ipv4_addresses
+
+2. ansible_default_ipv4
+
+3. ansible_interfaces
+
+System Locale and Time:
+
+ansible_date_time
+
+ansible_locale
+
+Hardware Information:
+
+1. ansible_processor
+
+2. ansible_memtotal_mb
+
+3. ansible_architecture
+
+how are we getting gathers facts--
+
+some times used from adhoc commands -\
+1-- ansible all -m setup -a "filter=ansible_processor"
+
+2-- using in ansible playbook itself--\\
+- name: information regarding IPv4
+  debug:
+    var: ansible_default_ipv4
+
