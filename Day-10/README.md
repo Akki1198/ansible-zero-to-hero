@@ -1,3 +1,7 @@
+Policy as code is a rule where you check that organization have security(Infrastructre security, application, compliace and goverance) or it compliance or not
+for example - you have aws account, need creat a policy that versioning should be enable to every s3 bucket
+or s3 bucket shoud not access outside.
+
 # Policy as Code
 
 Policy as Code (PaC) in DevSecOps refers to the practice of defining and managing security policies through code. This approach enables automated, consistent, and scalable enforcement of security controls and compliance requirements across the software development lifecycle. 
