@@ -11,20 +11,30 @@ we can use ansible weather our servers are in on-primises or cloud machines
 Advantage -
 
 easy to use
+
 free to use
+
 light in weight
+
 secure because of agentless compatibility
+
 does not need any special system administrator skill to install and use it.
+
 works on push mechanism
+
 
 Disadvantage
 
 it is not fully Automated
+
 limited support because i think it new in the market.
+
 Ansible tower is GUI, but it is still in development stages.
 
+
+
 Ansible is an open source IT automation engine that automates 
-- provisioning 
+- provisioning
 - configuration management
 - application deployment
 - orchestration
