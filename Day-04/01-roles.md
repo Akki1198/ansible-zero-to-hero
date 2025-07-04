@@ -44,6 +44,8 @@ Default module parameters for the role.
 ### Lookup_plugins
 Custom lookup plugins for the role.
 
+In Ansible, lookup plugins are used to retrieve data from external sources (like files, environment variables, databases, etc.) during playbook execution. 
+
 ## Directory Structure of an Ansible Role
 
 An Ansible role follows a specific directory structure:
